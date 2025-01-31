@@ -40,5 +40,25 @@ const KeyFormat all_formats[] = {
     .max_depth_ind = 9,
     .macs = 7,
     .clearance = 8
+    },
+
+    {
+    .manufacturer = "Cisa",
+    .format_name = "2000 UN5D",
+    .format_link = "",
+    .first_pin_inch = 0.174,      
+    .last_pin_inch = 0.804,       
+    .pin_increment_inch = 0.157,   
+    .pin_num = 5,
+    .pin_width_inch = 0.021,      
+    .elbow_inch = 0.0,
+    .drill_angle = 90,
+    .uncut_depth_inch = 0.278,    
+    .deepest_depth_inch = 0.032,   
+    .depth_step_inch = 0.016,     
+    .min_depth_ind = 1,
+    .max_depth_ind = 9,
+    .macs = 7,
+    .clearance = 8
     }
 };
